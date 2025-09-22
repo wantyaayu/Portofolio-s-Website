@@ -11,72 +11,69 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #1e30f3;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #e21e80;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #1e30f3;
-  --bs-secondary: #e21e80;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-primary-rgb: 30, 48, 243;
-  --bs-secondary-rgb: 226, 30, 128;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Plus Jakarta Sans";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-blue: #f08ca2;              /* soft pink (new primary) */
+  --bs-indigo: #d8a7b1;            /* muted pink */
+  --bs-purple: #e7a6b1;            /* pastel mauve */
+  --bs-pink: #f4c2c2;              /* blush pink */
+  --bs-red: #f28482;               /* muted coral */
+  --bs-orange: #ffd6a5;            /* soft peach */
+  --bs-yellow: #ffe5b4;            /* pastel yellow */
+  --bs-green: #c2ded1;             /* sage green */
+  --bs-teal: #c3e6cb;              /* light mint */
+  --bs-cyan: #ffe5ec;              /* very light pink */
+  --bs-black: #5c3d2e;             /* chocolate brown for text */
+  --bs-white: #fff8f0;             /* warm white */
+  --bs-gray: #a79c97;              /* muted gray */
+  --bs-gray-dark: #7a6f6f;
+  --bs-gray-100: #fdf4f0;
+  --bs-gray-200: #fceeee;
+  --bs-gray-300: #f9e8e8;
+  --bs-gray-400: #f4dddd;
+  --bs-gray-500: #e8cfcf;
+  --bs-gray-600: #d8b8b8;
+  --bs-gray-700: #c7a2a2;
+  --bs-gray-800: #b58b8b;
+  --bs-gray-900: #9e7575;
+
+  --bs-primary: #f08ca2;           /* primary soft pink */
+  --bs-secondary: #f4c2c2;         /* blush pink */
+  --bs-success: #c2ded1;           /* sage green */
+  --bs-info: #ffe5ec;              /* very light pink */
+  --bs-warning: #ffd6a5;           /* peach */
+  --bs-danger: #f28482;            /* muted coral */
+  --bs-light: #fff8f0;             /* warm white */
+  --bs-dark: #5c3d2e;              /* chocolate brown */
+
+  --bs-primary-rgb: 240, 140, 162;
+  --bs-secondary-rgb: 244, 194, 194;
+  --bs-success-rgb: 194, 222, 209;
+  --bs-info-rgb: 255, 229, 236;
+  --bs-warning-rgb: 255, 214, 165;
+  --bs-danger-rgb: 242, 132, 130;
+  --bs-light-rgb: 255, 248, 240;
+  --bs-dark-rgb: 92, 61, 46;
+
+  --bs-body-font-family: "Plus Jakarta Sans";
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #5c3d2e;
+  --bs-body-bg: #fff8f0;
+
+  --bs-link-color: #f08ca2;
+  --bs-link-hover-color: #d26a83;
+
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
+  --bs-border-color: #f4dddd;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.375rem;
+  --bs-border-radius: 0.5rem;
   --bs-border-radius-sm: 0.25rem;
-  --bs-border-radius-lg: 0.5rem;
-  --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-lg: 1rem;
+  --bs-border-radius-xl: 2rem;
+  --bs-border-radius-2xl: 3rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #1826c2;
-  --bs-code-color: #e21e80;
-  --bs-highlight-bg: #fff3cd;
+  --bs-highlight-bg: #ffe5ec;
 }
 
 *,
@@ -91,6 +88,31 @@
   }
 }
 
+:root {
+  /* Warna-warna feminin pastel */
+  --bs-pink: #f8e1e7;
+  --bs-peach: #ffe5d9;
+  --bs-lavender: #f3e8ff;
+  --bs-rose: #f9d5d3;
+  --bs-mint: #e8f8f5;
+  --bs-gold: #fce4b8;
+  --bs-brown-soft: #5c3d2e;
+  --bs-white: #fff;
+  --bs-body-bg: #fff8f0; /* latar belakang creamy */
+  --bs-body-color: #5c3d2e; /* teks coklat muda */
+  --bs-primary: #f8a5c2; /* pink pastel */
+  --bs-secondary: #f6c1b3; /* peach pastel */
+  --bs-link-color: #f492bf; /* soft pink link */
+  --bs-link-hover-color: #e17ca3;
+  --bs-border-color: #f2d3d3;
+
+  /* Font */
+  --bs-body-font-family: "Plus Jakarta Sans", sans-serif;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.6;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -98,19 +120,44 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-hr {
-  margin: 1rem 0;
-  color: inherit;
-  border: 0;
-  border-top: 1px solid;
-  opacity: 0.25;
+/* Tambahan untuk tombol agar sesuai tema */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-white);
 }
+
+.btn-primary:hover {
+  background-color: #f492bf;
+  border-color: #f492bf;
+}
+
+.btn-outline-dark {
+  border-color: var(--bs-brown-soft);
+  color: var(--bs-brown-soft);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--bs-brown-soft);
+  color: var(--bs-white);
+}
+
+hr {
+  margin: 1.5rem 0;                /* beri jarak lebih lega */
+  border: 0;
+  border-top: 2px solid #f8a5c2;  /* soft pink pastel */
+  opacity: 0.5;                    /* lebih transparan, lembut */
+  border-radius: 2px;              /* ujung garis sedikit rounded */
+  width: 60%;                      /* garis lebih pendek */
+  margin-left: auto;
+  margin-right: auto;              /* garis berada di tengah */
+}
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -11560,7 +11607,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(to top, var(--bs-red), var(--bs-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
